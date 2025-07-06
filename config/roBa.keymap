@@ -5,14 +5,14 @@
 
 &mt {
     flavor = "hold-preferred";
-    quick-tap-ms = <0>;
+    quick-tap-ms = <200>;
 };
 
 &lt {
     flavor = "hold-preferred";
-    quick-tap-ms = <0>;
+    quick-tap-ms = <200>;
 
-}
+};
 
 &trackball {
     automouse-layer = <4>;

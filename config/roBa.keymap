@@ -4,9 +4,15 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
-    flavor = "balanced";
+    flavor = "hold-preferred";
     quick-tap-ms = <0>;
 };
+
+&lt {
+    flavor = "hold-preferred";
+    quick-tap-ms = <0>;
+
+}
 
 &trackball {
     automouse-layer = <4>;
@@ -72,6 +78,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+            flavor = "hold-preferred";
         };
     };
 

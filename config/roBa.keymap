@@ -45,12 +45,12 @@
             key-positions = <10 11>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 RCTRL>;
+        right_ctrl {
+            bindings = <&kp RCTRL>;
             key-positions = <32 33>;
         };
 
-        double_quotation {
+        shift_ctrl {
             bindings = <&kp LS(LCTRL)>;
             key-positions = <22 23>;
         };

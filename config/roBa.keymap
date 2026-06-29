@@ -128,7 +128,7 @@
 &kp Q                      &kp W         &kp E         &kp R        &kp T                                                   &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A                      &kp S         &kp D         &kp F        &kp G                 &mkp MB1         &mkp MB1         &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt_balanced LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B                 &mkp MB2         &mkp MB2         &kp N        &kp M  &kp COMMA  &kp DOT  &mt_balanced RIGHT_SHIFT SLASH
-&mo 8                      &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 LANG2  &lt_balanced 2 SPACE  &lt 5 LANG1      &lt 2 BACKSPACE  &lt 1 ENTER                             &lt 7 ESCAPE
+&mo 8                      &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 LANG2  &lt_balanced 2 SPACE  &lt 5 LANG1      &lt 2 BACKSPACE  &lt 1 ENTER                             &mo 7
             >;
         };
 
@@ -143,10 +143,10 @@
 
         ARROW_SIGN {
             bindings = <
-&kp LS(EXCL)   &kp LS(AT)          &kp LS(POUND)    &kp LS(DLLR)                 &kp LS(PRCNT)                                          &kp LC(W)      &kp LC(R)     &kp LC(T)     &kp LC(LS(T))  &mt PLUS EQUAL
-&kp LS(CARET)  &kp LS(AMPS)        &kp LS(STAR)     &kp LS(LPAR)                 &kp LS(RPAR)                   &trans      &trans      &kp LC(PG_UP)  &kp LC(HOME)  &kp LA(UP)    &kp LC(END)    &mt UNDER MINUS
-&trans         &mt PIPE BACKSLASH  &mt TILDE GRAVE  &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET  &trans      &trans      &kp LC(PG_DN)  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(RIGHT)  &mt DOUBLE_QUOTES APOS
-&trans         &trans              &trans           &trans                       &trans                         &mo 6       &kp DELETE  &trans                                                    &kp LG(L)
+&kp LS(EXCL)           &kp LS(AT)          &kp LS(POUND)    &kp LS(DLLR)                 &kp LS(PRCNT)                                          &kp LC(W)      &kp LC(R)     &kp LC(T)     &kp LC(LS(T))  &mt PLUS EQUAL
+&kp LS(CARET)          &kp LS(AMPS)        &kp LS(STAR)     &kp LS(LPAR)                 &kp LS(RPAR)                   &trans      &trans      &kp LC(PG_UP)  &kp LC(HOME)  &kp LA(UP)    &kp LC(END)    &mt UNDER MINUS
+&mt DOUBLE_QUOTES SQT  &mt PIPE BACKSLASH  &mt TILDE GRAVE  &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET  &trans      &trans      &kp LC(PG_DN)  &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(RIGHT)  &mt DOUBLE_QUOTES APOS
+&trans                 &trans              &trans           &trans                       &trans                         &mo 6       &kp DELETE  &trans                                                    &kp LG(L)
             >;
         };
 
@@ -154,7 +154,7 @@
             bindings = <
 &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                           &kp N6     &kp N7    &kp N8    &kp N9     &kp N0
 &trans  &kp F2  &kp F3  &kp F4  &kp F5   &trans      &trans      &kp PG_UP  &kp HOME  &kp UP    &kp END    &kp MINUS
-&trans  &kp F7  &kp F8  &kp F9  &kp F10  &trans      &trans      &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans      &trans      &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
 &trans  &trans  &trans  &trans  &trans   &trans      &kp DELETE  &trans                                    &trans
             >;
 
@@ -202,7 +202,7 @@
 &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                      &kp LC(Y)  &kp LC(U)  &kp LC(I)      &kp LC(O)    &kp LC(P)
 &kp LC(A)  &kp LC(S)  &mkp MB2   &mkp MB1   &mkp MB3   &trans      &trans  &kp LC(H)  &kp LC(J)  &kp LC(K)      &kp LC(L)    &kp LC(SEMI)
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &trans      &trans  &kp LC(N)  &kp LC(M)  &kp LC(COMMA)  &kp LC(DOT)  &kp LC(FSLH)
-&trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                                            &kp RCTRL
+&trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                                            &kp ESC
             >;
         };
     };

@@ -190,19 +190,19 @@
 
         MOUSE_RIGHT {
             bindings = <
-&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                          &kp LC(Y)  &kp LC(U)  &kp LC(I)      &kp LC(O)       &kp LC(P)
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(LS(T))  &trans      &trans  &kp LC(H)  &mkp MB1   &mkp MB3       &mkp MB2        &kp LC(SEMICOLON)
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)      &trans      &trans  &kp LC(N)  &kp LC(M)  &kp LC(COMMA)  &kp LC(PERIOD)  &kp LC(SLASH)
-&kp LCTRL  &trans     &trans     &trans     &trans         &trans      &trans  &trans                                               &kp RIGHT_CONTROL
+&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                              &kp LC(Y)      &kp LC(U)  &kp LC(I)      &kp LC(O)       &kp LC(P)
+&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(LS(T))  &trans      &trans      &kp LC(H)      &mkp MB1   &mkp MB3       &mkp MB2        &kp LC(SEMICOLON)
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)      &trans      &trans      &kp LC(N)      &kp LC(M)  &kp LC(COMMA)  &kp LC(PERIOD)  &kp LC(SLASH)
+&kp LCTRL  &trans     &trans     &trans     &trans         &trans      &kp DELETE  &kp LC(ENTER)                                            &kp RIGHT_CONTROL
             >;
         };
 
         MOUSE_LEFT {
             bindings = <
-&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                      &kp LC(Y)  &kp LC(U)  &kp LC(I)      &kp LC(O)    &kp LC(P)
-&kp LC(A)  &kp LC(S)  &mkp MB2   &mkp MB1   &mkp MB3   &trans      &trans  &kp LC(H)  &kp LC(J)  &kp LC(K)      &kp LC(L)    &kp LC(SEMI)
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &trans      &trans  &kp LC(N)  &kp LC(M)  &kp LC(COMMA)  &kp LC(DOT)  &kp LC(FSLH)
-&trans     &trans     &trans     &trans     &trans     &trans      &trans  &trans                                            &kp ESC
+&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                          &kp LC(Y)      &kp LC(U)  &kp LC(I)      &kp LC(O)    &kp LC(P)
+&kp LC(A)  &kp LC(S)  &mkp MB2   &mkp MB1   &mkp MB3   &trans      &trans      &kp LC(H)      &kp LC(J)  &kp LC(K)      &kp LC(L)    &kp LC(SEMI)
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &trans      &trans      &kp LC(N)      &kp LC(M)  &kp LC(COMMA)  &kp LC(DOT)  &kp LC(FSLH)
+&trans     &trans     &trans     &trans     &trans     &trans      &kp DELETE  &kp LC(ENTER)                                         &kp ESC
             >;
         };
     };
